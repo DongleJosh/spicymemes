@@ -135,7 +135,7 @@ header h1 {
 
 .card {
   padding: 16px;
-  height: 200px;
+  height: 269px;
   background-repeat: no-repeat;
   text-align: center;
   font-family: comic sans ms;
@@ -179,12 +179,30 @@ header h1 {
     display: block;
     margin-bottom: 20px;
   }
-  
+}
+
+@media screen and (min-width: 601px) {
+  .column {
+    display: flex;
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+    }
+ }
+
+ @media screen and (min-width: 1150px) {
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+ }
+
   #aboutme h2 {
     margin-left: 0px;
     margin-right: 0px;
   }
-}
+
 
  /* @media screen and (max-width: 820px) {
   .column {
@@ -220,4 +238,5 @@ img {
   margin-top: 200px;
   width: 75%;
   border-radius: 20px;
+  padding-top: 100px;
 }

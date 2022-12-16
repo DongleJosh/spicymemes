@@ -134,6 +134,7 @@ header h1 {
 }
 
 .card {
+  margin-top: 20px;
   padding: 16px;
   height: 269px;
   background-repeat: no-repeat;
